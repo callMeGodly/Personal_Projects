@@ -1,0 +1,1500 @@
+Start testing: Jan 25 09:24 UTC
+----------------------------------------------------------
+1/23 Testing: LabelList.Nominal
+1/23 Test: LabelList.Nominal
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=LabelList.Nominal"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"LabelList.Nominal" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3123== Memcheck, a memory error detector
+==3123== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3123== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3123== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=LabelList.Nominal
+==3123== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = LabelList.Nominal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabelList
+[ RUN      ] LabelList.Nominal
+[       OK ] LabelList.Nominal (17 ms)
+[----------] 1 test from LabelList (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==3123== 
+==3123== HEAP SUMMARY:
+==3123==     in use at exit: 0 bytes in 0 blocks
+==3123==   total heap usage: 435 allocs, 435 frees, 130,902 bytes allocated
+==3123== 
+==3123== All heap blocks were freed -- no leaks are possible
+==3123== 
+==3123== For lists of detected and suppressed errors, rerun with: -s
+==3123== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"LabelList.Nominal" end time: Jan 25 09:24 UTC
+"LabelList.Nominal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/23 Testing: EmptyList.EmptyAndSize
+2/23 Test: EmptyList.EmptyAndSize
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=EmptyList.EmptyAndSize"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"EmptyList.EmptyAndSize" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3124== Memcheck, a memory error detector
+==3124== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3124== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3124== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=EmptyList.EmptyAndSize
+==3124== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyList.EmptyAndSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyList
+[ RUN      ] EmptyList.EmptyAndSize
+[       OK ] EmptyList.EmptyAndSize (6 ms)
+[----------] 1 test from EmptyList (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (16 ms total)
+[  PASSED  ] 1 test.
+==3124== 
+==3124== HEAP SUMMARY:
+==3124==     in use at exit: 0 bytes in 0 blocks
+==3124==   total heap usage: 408 allocs, 408 frees, 129,977 bytes allocated
+==3124== 
+==3124== All heap blocks were freed -- no leaks are possible
+==3124== 
+==3124== For lists of detected and suppressed errors, rerun with: -s
+==3124== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyList.EmptyAndSize" end time: Jan 25 09:24 UTC
+"EmptyList.EmptyAndSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/23 Testing: EmptyList.OperationsOnEmptyList
+3/23 Test: EmptyList.OperationsOnEmptyList
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=EmptyList.OperationsOnEmptyList"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"EmptyList.OperationsOnEmptyList" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3125== Memcheck, a memory error detector
+==3125== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3125== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3125== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=EmptyList.OperationsOnEmptyList
+==3125== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyList.OperationsOnEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyList
+[ RUN      ] EmptyList.OperationsOnEmptyList
+[       OK ] EmptyList.OperationsOnEmptyList (8 ms)
+[----------] 1 test from EmptyList (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (17 ms total)
+[  PASSED  ] 1 test.
+==3125== 
+==3125== HEAP SUMMARY:
+==3125==     in use at exit: 0 bytes in 0 blocks
+==3125==   total heap usage: 405 allocs, 405 frees, 130,016 bytes allocated
+==3125== 
+==3125== All heap blocks were freed -- no leaks are possible
+==3125== 
+==3125== For lists of detected and suppressed errors, rerun with: -s
+==3125== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyList.OperationsOnEmptyList" end time: Jan 25 09:24 UTC
+"EmptyList.OperationsOnEmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/23 Testing: Exceptions.Find
+4/23 Test: Exceptions.Find
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Find"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Exceptions.Find" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3126== Memcheck, a memory error detector
+==3126== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3126== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3126== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Find
+==3126== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Find
+[       OK ] Exceptions.Find (16 ms)
+[----------] 1 test from Exceptions (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+==3126== 
+==3126== HEAP SUMMARY:
+==3126==     in use at exit: 0 bytes in 0 blocks
+==3126==   total heap usage: 385 allocs, 385 frees, 129,512 bytes allocated
+==3126== 
+==3126== All heap blocks were freed -- no leaks are possible
+==3126== 
+==3126== For lists of detected and suppressed errors, rerun with: -s
+==3126== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Find" end time: Jan 25 09:24 UTC
+"Exceptions.Find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/23 Testing: Exceptions.Label
+5/23 Test: Exceptions.Label
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Label"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Exceptions.Label" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3127== Memcheck, a memory error detector
+==3127== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3127== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3127== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Label
+==3127== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Label
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Label
+[       OK ] Exceptions.Label (16 ms)
+[----------] 1 test from Exceptions (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==3127== 
+==3127== HEAP SUMMARY:
+==3127==     in use at exit: 0 bytes in 0 blocks
+==3127==   total heap usage: 407 allocs, 407 frees, 130,076 bytes allocated
+==3127== 
+==3127== All heap blocks were freed -- no leaks are possible
+==3127== 
+==3127== For lists of detected and suppressed errors, rerun with: -s
+==3127== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Label" end time: Jan 25 09:24 UTC
+"Exceptions.Label" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/23 Testing: Exceptions.Print
+6/23 Test: Exceptions.Print
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Print"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Exceptions.Print" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3128== Memcheck, a memory error detector
+==3128== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3128== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3128== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Print
+==3128== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Print
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Print
+[       OK ] Exceptions.Print (16 ms)
+[----------] 1 test from Exceptions (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==3128== 
+==3128== HEAP SUMMARY:
+==3128==     in use at exit: 0 bytes in 0 blocks
+==3128==   total heap usage: 407 allocs, 407 frees, 130,075 bytes allocated
+==3128== 
+==3128== All heap blocks were freed -- no leaks are possible
+==3128== 
+==3128== For lists of detected and suppressed errors, rerun with: -s
+==3128== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Print" end time: Jan 25 09:24 UTC
+"Exceptions.Print" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/23 Testing: Exceptions.Unlabel
+7/23 Test: Exceptions.Unlabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Unlabel"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Exceptions.Unlabel" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3129== Memcheck, a memory error detector
+==3129== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3129== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3129== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Unlabel
+==3129== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Unlabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Unlabel
+[       OK ] Exceptions.Unlabel (24 ms)
+[----------] 1 test from Exceptions (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+==3129== 
+==3129== HEAP SUMMARY:
+==3129==     in use at exit: 0 bytes in 0 blocks
+==3129==   total heap usage: 420 allocs, 420 frees, 130,750 bytes allocated
+==3129== 
+==3129== All heap blocks were freed -- no leaks are possible
+==3129== 
+==3129== For lists of detected and suppressed errors, rerun with: -s
+==3129== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Unlabel" end time: Jan 25 09:24 UTC
+"Exceptions.Unlabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/23 Testing: Label.Label1
+8/23 Test: Label.Label1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.Label1"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Label.Label1" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3130== Memcheck, a memory error detector
+==3130== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3130== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3130== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.Label1
+==3130== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.Label1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.Label1
+[       OK ] Label.Label1 (22 ms)
+[----------] 1 test from Label (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (31 ms total)
+[  PASSED  ] 1 test.
+==3130== 
+==3130== HEAP SUMMARY:
+==3130==     in use at exit: 0 bytes in 0 blocks
+==3130==   total heap usage: 475 allocs, 475 frees, 133,281 bytes allocated
+==3130== 
+==3130== All heap blocks were freed -- no leaks are possible
+==3130== 
+==3130== For lists of detected and suppressed errors, rerun with: -s
+==3130== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Label.Label1" end time: Jan 25 09:24 UTC
+"Label.Label1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/23 Testing: Label.Label2
+9/23 Test: Label.Label2
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.Label2"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Label.Label2" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3131== Memcheck, a memory error detector
+==3131== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3131== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3131== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.Label2
+==3131== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.Label2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.Label2
+[       OK ] Label.Label2 (23 ms)
+[----------] 1 test from Label (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+==3131== 
+==3131== HEAP SUMMARY:
+==3131==     in use at exit: 0 bytes in 0 blocks
+==3131==   total heap usage: 487 allocs, 487 frees, 134,017 bytes allocated
+==3131== 
+==3131== All heap blocks were freed -- no leaks are possible
+==3131== 
+==3131== For lists of detected and suppressed errors, rerun with: -s
+==3131== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Label.Label2" end time: Jan 25 09:24 UTC
+"Label.Label2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/23 Testing: Find.FindEmpty
+10/23 Test: Find.FindEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindEmpty"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Find.FindEmpty" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3132== Memcheck, a memory error detector
+==3132== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3132== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3132== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindEmpty
+==3132== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindEmpty
+[       OK ] Find.FindEmpty (6 ms)
+[----------] 1 test from Find (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (15 ms total)
+[  PASSED  ] 1 test.
+==3132== 
+==3132== HEAP SUMMARY:
+==3132==     in use at exit: 0 bytes in 0 blocks
+==3132==   total heap usage: 381 allocs, 381 frees, 129,131 bytes allocated
+==3132== 
+==3132== All heap blocks were freed -- no leaks are possible
+==3132== 
+==3132== For lists of detected and suppressed errors, rerun with: -s
+==3132== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindEmpty" end time: Jan 25 09:24 UTC
+"Find.FindEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/23 Testing: Find.FindViaMessage
+11/23 Test: Find.FindViaMessage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindViaMessage"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Find.FindViaMessage" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3133== Memcheck, a memory error detector
+==3133== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3133== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3133== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindViaMessage
+==3133== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindViaMessage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindViaMessage
+[       OK ] Find.FindViaMessage (17 ms)
+[----------] 1 test from Find (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==3133== 
+==3133== HEAP SUMMARY:
+==3133==     in use at exit: 0 bytes in 0 blocks
+==3133==   total heap usage: 474 allocs, 474 frees, 132,788 bytes allocated
+==3133== 
+==3133== All heap blocks were freed -- no leaks are possible
+==3133== 
+==3133== For lists of detected and suppressed errors, rerun with: -s
+==3133== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindViaMessage" end time: Jan 25 09:24 UTC
+"Find.FindViaMessage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/23 Testing: Find.FindViaIndex
+12/23 Test: Find.FindViaIndex
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindViaIndex"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Find.FindViaIndex" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3134== Memcheck, a memory error detector
+==3134== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3134== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3134== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindViaIndex
+==3134== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindViaIndex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindViaIndex
+[       OK ] Find.FindViaIndex (17 ms)
+[----------] 1 test from Find (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+==3134== 
+==3134== HEAP SUMMARY:
+==3134==     in use at exit: 0 bytes in 0 blocks
+==3134==   total heap usage: 474 allocs, 474 frees, 132,774 bytes allocated
+==3134== 
+==3134== All heap blocks were freed -- no leaks are possible
+==3134== 
+==3134== For lists of detected and suppressed errors, rerun with: -s
+==3134== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindViaIndex" end time: Jan 25 09:24 UTC
+"Find.FindViaIndex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/23 Testing: Unlabel.UnlabelBadLabel
+13/23 Test: Unlabel.UnlabelBadLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.UnlabelBadLabel"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Unlabel.UnlabelBadLabel" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3135== Memcheck, a memory error detector
+==3135== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3135== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3135== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.UnlabelBadLabel
+==3135== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.UnlabelBadLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.UnlabelBadLabel
+[       OK ] Unlabel.UnlabelBadLabel (20 ms)
+[----------] 1 test from Unlabel (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==3135== 
+==3135== HEAP SUMMARY:
+==3135==     in use at exit: 0 bytes in 0 blocks
+==3135==   total heap usage: 457 allocs, 457 frees, 132,576 bytes allocated
+==3135== 
+==3135== All heap blocks were freed -- no leaks are possible
+==3135== 
+==3135== For lists of detected and suppressed errors, rerun with: -s
+==3135== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.UnlabelBadLabel" end time: Jan 25 09:24 UTC
+"Unlabel.UnlabelBadLabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/23 Testing: Unlabel.Unlabel1
+14/23 Test: Unlabel.Unlabel1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.Unlabel1"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Unlabel.Unlabel1" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3136== Memcheck, a memory error detector
+==3136== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3136== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3136== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.Unlabel1
+==3136== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.Unlabel1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.Unlabel1
+[       OK ] Unlabel.Unlabel1 (21 ms)
+[----------] 1 test from Unlabel (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (31 ms total)
+[  PASSED  ] 1 test.
+==3136== 
+==3136== HEAP SUMMARY:
+==3136==     in use at exit: 0 bytes in 0 blocks
+==3136==   total heap usage: 491 allocs, 491 frees, 133,791 bytes allocated
+==3136== 
+==3136== All heap blocks were freed -- no leaks are possible
+==3136== 
+==3136== For lists of detected and suppressed errors, rerun with: -s
+==3136== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.Unlabel1" end time: Jan 25 09:24 UTC
+"Unlabel.Unlabel1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/23 Testing: Unlabel.UnlabelRemove
+15/23 Test: Unlabel.UnlabelRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.UnlabelRemove"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Unlabel.UnlabelRemove" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3137== Memcheck, a memory error detector
+==3137== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3137== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3137== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.UnlabelRemove
+==3137== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.UnlabelRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.UnlabelRemove
+[       OK ] Unlabel.UnlabelRemove (21 ms)
+[----------] 1 test from Unlabel (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+==3137== 
+==3137== HEAP SUMMARY:
+==3137==     in use at exit: 0 bytes in 0 blocks
+==3137==   total heap usage: 487 allocs, 487 frees, 133,474 bytes allocated
+==3137== 
+==3137== All heap blocks were freed -- no leaks are possible
+==3137== 
+==3137== For lists of detected and suppressed errors, rerun with: -s
+==3137== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.UnlabelRemove" end time: Jan 25 09:24 UTC
+"Unlabel.UnlabelRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/23 Testing: Label.AddRemoveAfterLabel
+16/23 Test: Label.AddRemoveAfterLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.AddRemoveAfterLabel"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Label.AddRemoveAfterLabel" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3138== Memcheck, a memory error detector
+==3138== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3138== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3138== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.AddRemoveAfterLabel
+==3138== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.AddRemoveAfterLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.AddRemoveAfterLabel
+==3138== Invalid write of size 8
+==3138==    at 0x12DF8C: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:292)
+==3138==    by 0x11E033: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:531)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==  Address 0x4ce7390 is 16 bytes after a block of size 16 in arena "client"
+==3138== 
+==3138== Invalid read of size 8
+==3138==    at 0x12E6C4: LabelList::print(std::ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char) const (labellist.cpp:395)
+==3138==    by 0x114B57: compareList(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, LabelList const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (label_tests.cpp:76)
+==3138==    by 0x11E0CF: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:533)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==  Address 0x4ce7178 is 0 bytes after a block of size 8 alloc'd
+==3138==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3138==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3138==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3138==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3138==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3138==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3138==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3138==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3138==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3138==    by 0x11DF5F: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:527)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138== 
+==3138== Invalid read of size 8
+==3138==    at 0x12E6C4: LabelList::print(std::ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char) const (labellist.cpp:395)
+==3138==    by 0x114B57: compareList(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, LabelList const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (label_tests.cpp:76)
+==3138==    by 0x11E49B: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:536)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==  Address 0x4ce7340 is 16 bytes after a block of size 16 in arena "client"
+==3138== 
+==3138== Invalid write of size 8
+==3138==    at 0x12DECC: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:283)
+==3138==    by 0x11E5CB: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:538)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==  Address 0x4ce71c8 is 0 bytes after a block of size 8 alloc'd
+==3138==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3138==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3138==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3138==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3138==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3138==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3138==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3138==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3138==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3138==    by 0x11DF5F: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:527)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138== 
+==3138== Invalid read of size 8
+==3138==    at 0x12E6C4: LabelList::print(std::ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char) const (labellist.cpp:395)
+==3138==    by 0x114B57: compareList(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, LabelList const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (label_tests.cpp:76)
+==3138==    by 0x11E68F: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:539)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==  Address 0x4ce7178 is 0 bytes after a block of size 8 alloc'd
+==3138==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3138==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3138==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3138==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3138==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3138==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3138==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3138==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3138==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3138==    by 0x11DF5F: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:527)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138== 
+==3138== Invalid read of size 8
+==3138==    at 0x12E6C4: LabelList::print(std::ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char) const (labellist.cpp:395)
+==3138==    by 0x114B57: compareList(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, LabelList const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (label_tests.cpp:76)
+==3138==    by 0x11EB1B: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:545)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==  Address 0x4ce7340 is 16 bytes after a block of size 16 in arena "client"
+==3138== 
+==3138== Invalid write of size 8
+==3138==    at 0x12E334: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:336)
+==3138==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3138==    by 0x12D5BF: LabelList::clear() (labellist.cpp:156)
+==3138==    by 0x12D507: LabelList::~LabelList() (labellist.cpp:149)
+==3138==    by 0x11EC3F: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:494)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==  Address 0x4ce71c8 is 0 bytes after a block of size 8 alloc'd
+==3138==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3138==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3138==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3138==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3138==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3138==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3138==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3138==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3138==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3138==    by 0x11DF5F: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:527)
+==3138==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3138== 
+[       OK ] Label.AddRemoveAfterLabel (24 ms)
+[----------] 1 test from Label (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+==3138== 
+==3138== HEAP SUMMARY:
+==3138==     in use at exit: 0 bytes in 0 blocks
+==3138==   total heap usage: 508 allocs, 508 frees, 134,878 bytes allocated
+==3138== 
+==3138== All heap blocks were freed -- no leaks are possible
+==3138== 
+==3138== For lists of detected and suppressed errors, rerun with: -s
+==3138== ERROR SUMMARY: 8 errors from 7 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"Label.AddRemoveAfterLabel" end time: Jan 25 09:24 UTC
+"Label.AddRemoveAfterLabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/23 Testing: MsgToken.ComparisonBool
+17/23 Test: MsgToken.ComparisonBool
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.ComparisonBool"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"MsgToken.ComparisonBool" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3139== Memcheck, a memory error detector
+==3139== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3139== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3139== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.ComparisonBool
+==3139== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.ComparisonBool
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.ComparisonBool
+[       OK ] MsgToken.ComparisonBool (17 ms)
+[----------] 1 test from MsgToken (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+==3139== 
+==3139== HEAP SUMMARY:
+==3139==     in use at exit: 0 bytes in 0 blocks
+==3139==   total heap usage: 467 allocs, 467 frees, 131,904 bytes allocated
+==3139== 
+==3139== All heap blocks were freed -- no leaks are possible
+==3139== 
+==3139== For lists of detected and suppressed errors, rerun with: -s
+==3139== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.ComparisonBool" end time: Jan 25 09:24 UTC
+"MsgToken.ComparisonBool" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/23 Testing: MsgToken.Label
+18/23 Test: MsgToken.Label
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Label"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"MsgToken.Label" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3140== Memcheck, a memory error detector
+==3140== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3140== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3140== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Label
+==3140== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Label
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Label
+[       OK ] MsgToken.Label (15 ms)
+[----------] 1 test from MsgToken (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==3140== 
+==3140== HEAP SUMMARY:
+==3140==     in use at exit: 0 bytes in 0 blocks
+==3140==   total heap usage: 420 allocs, 420 frees, 130,283 bytes allocated
+==3140== 
+==3140== All heap blocks were freed -- no leaks are possible
+==3140== 
+==3140== For lists of detected and suppressed errors, rerun with: -s
+==3140== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Label" end time: Jan 25 09:24 UTC
+"MsgToken.Label" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/23 Testing: MsgToken.Msg
+19/23 Test: MsgToken.Msg
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Msg"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"MsgToken.Msg" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3141== Memcheck, a memory error detector
+==3141== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3141== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3141== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Msg
+==3141== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Msg
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Msg
+[       OK ] MsgToken.Msg (26 ms)
+[----------] 1 test from MsgToken (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (34 ms total)
+[  PASSED  ] 1 test.
+==3141== 
+==3141== HEAP SUMMARY:
+==3141==     in use at exit: 0 bytes in 0 blocks
+==3141==   total heap usage: 422 allocs, 422 frees, 130,457 bytes allocated
+==3141== 
+==3141== All heap blocks were freed -- no leaks are possible
+==3141== 
+==3141== For lists of detected and suppressed errors, rerun with: -s
+==3141== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Msg" end time: Jan 25 09:24 UTC
+"MsgToken.Msg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/23 Testing: MsgToken.Ostream
+20/23 Test: MsgToken.Ostream
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Ostream"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"MsgToken.Ostream" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3142== Memcheck, a memory error detector
+==3142== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3142== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3142== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Ostream
+==3142== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Ostream
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Ostream
+[       OK ] MsgToken.Ostream (16 ms)
+[----------] 1 test from MsgToken (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==3142== 
+==3142== HEAP SUMMARY:
+==3142==     in use at exit: 0 bytes in 0 blocks
+==3142==   total heap usage: 444 allocs, 444 frees, 131,039 bytes allocated
+==3142== 
+==3142== All heap blocks were freed -- no leaks are possible
+==3142== 
+==3142== For lists of detected and suppressed errors, rerun with: -s
+==3142== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Ostream" end time: Jan 25 09:24 UTC
+"MsgToken.Ostream" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/23 Testing: MsgToken.NextPrev
+21/23 Test: MsgToken.NextPrev
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.NextPrev"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"MsgToken.NextPrev" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3143== Memcheck, a memory error detector
+==3143== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3143== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3143== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.NextPrev
+==3143== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.NextPrev
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.NextPrev
+[       OK ] MsgToken.NextPrev (16 ms)
+[----------] 1 test from MsgToken (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==3143== 
+==3143== HEAP SUMMARY:
+==3143==     in use at exit: 0 bytes in 0 blocks
+==3143==   total heap usage: 444 allocs, 444 frees, 131,046 bytes allocated
+==3143== 
+==3143== All heap blocks were freed -- no leaks are possible
+==3143== 
+==3143== For lists of detected and suppressed errors, rerun with: -s
+==3143== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.NextPrev" end time: Jan 25 09:24 UTC
+"MsgToken.NextPrev" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/23 Testing: Remove.UnlinkNodeLabel
+22/23 Test: Remove.UnlinkNodeLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Remove.UnlinkNodeLabel"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Remove.UnlinkNodeLabel" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3144== Memcheck, a memory error detector
+==3144== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3144== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3144== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Remove.UnlinkNodeLabel
+==3144== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Remove.UnlinkNodeLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Remove
+[ RUN      ] Remove.UnlinkNodeLabel
+==3144== Invalid write of size 8
+==3144==    at 0x12DF8C: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:292)
+==3144==    by 0x122CAF: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:698)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5358 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid write of size 8
+==3144==    at 0x12DFAC: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:293)
+==3144==    by 0x122CAF: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:698)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5308 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E2FC: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:335)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x122D57: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:703)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5358 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E38C: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:340)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x122D57: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:703)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5308 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E3A0: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:340)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x122D57: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:703)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5358 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid write of size 8
+==3144==    at 0x12E3A4: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:340)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x122D57: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:703)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce56b8 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E3CC: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:341)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x122D57: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:703)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5358 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E3E0: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:341)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x122D57: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:703)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5308 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E6C4: LabelList::print(std::ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char) const (labellist.cpp:395)
+==3144==    by 0x114B57: compareList(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, LabelList const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (label_tests.cpp:76)
+==3144==    by 0x122E0B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:706)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5668 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid write of size 8
+==3144==    at 0x12E004: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:297)
+==3144==    by 0x122FAB: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:710)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce54b8 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid write of size 8
+==3144==    at 0x12E024: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:298)
+==3144==    by 0x122FAB: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:710)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5508 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E6C4: LabelList::print(std::ostream&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char) const (labellist.cpp:395)
+==3144==    by 0x114B57: compareList(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, LabelList const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (label_tests.cpp:76)
+==3144==    by 0x123097: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:712)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x112977: main (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce54b8 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid write of size 8
+==3144==    at 0x12E334: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:336)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x12D5BF: LabelList::clear() (labellist.cpp:156)
+==3144==    by 0x12D507: LabelList::~LabelList() (labellist.cpp:149)
+==3144==    by 0x12319F: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:691)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5508 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E2FC: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:335)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x12D5BF: LabelList::clear() (labellist.cpp:156)
+==3144==    by 0x12D507: LabelList::~LabelList() (labellist.cpp:149)
+==3144==    by 0x12319F: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:691)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce5508 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE7B: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:11)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E324: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:336)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x12D5BF: LabelList::clear() (labellist.cpp:156)
+==3144==    by 0x12D507: LabelList::~LabelList() (labellist.cpp:149)
+==3144==    by 0x12319F: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:691)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce54b8 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+==3144== Invalid read of size 8
+==3144==    at 0x12E35C: LabelList::unlabel(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:337)
+==3144==    by 0x12D97F: LabelList::remove(LabelList::MsgToken const&) (labellist.cpp:211)
+==3144==    by 0x12D5BF: LabelList::clear() (labellist.cpp:156)
+==3144==    by 0x12D507: LabelList::~LabelList() (labellist.cpp:149)
+==3144==    by 0x12319F: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:691)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1559FB: testing::TestInfo::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x155AD7: testing::TestSuite::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x156023: testing::internal::UnitTestImpl::RunAllTests() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x16147F: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x15626B: testing::UnitTest::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==  Address 0x4ce54b8 is 0 bytes after a block of size 8 alloc'd
+==3144==    at 0x484A3C4: operator new(unsigned long) (in /usr/lib/aarch64-linux-gnu/valgrind/vgpreload_memcheck-arm64-linux.so)
+==3144==    by 0x131827: __gnu_cxx::new_allocator<LabelList::MsgNode*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==3144==    by 0x1311A7: std::allocator_traits<std::allocator<LabelList::MsgNode*> >::allocate(std::allocator<LabelList::MsgNode*>&, unsigned long) (alloc_traits.h:444)
+==3144==    by 0x130BCF: std::_Vector_base<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==3144==    by 0x13046F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::_M_realloc_insert<LabelList::MsgNode*>(__gnu_cxx::__normal_iterator<LabelList::MsgNode**, std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> > >, LabelList::MsgNode*&&) (vector.tcc:440)
+==3144==    by 0x12F98F: void std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::emplace_back<LabelList::MsgNode*>(LabelList::MsgNode*&&) (vector.tcc:121)
+==3144==    by 0x12F283: std::vector<LabelList::MsgNode*, std::allocator<LabelList::MsgNode*> >::push_back(LabelList::MsgNode*&&) (stl_vector.h:1201)
+==3144==    by 0x12CE67: LabelList::MsgNode::MsgNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:10)
+==3144==    by 0x12D70F: LabelList::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:182)
+==3144==    by 0x122C1B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:696)
+==3144==    by 0x160EE7: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144==    by 0x1558A7: testing::Test::Run() (in /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests)
+==3144== 
+[       OK ] Remove.UnlinkNodeLabel (25 ms)
+[----------] 1 test from Remove (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (34 ms total)
+[  PASSED  ] 1 test.
+==3144== 
+==3144== HEAP SUMMARY:
+==3144==     in use at exit: 0 bytes in 0 blocks
+==3144==   total heap usage: 436 allocs, 436 frees, 131,305 bytes allocated
+==3144== 
+==3144== All heap blocks were freed -- no leaks are possible
+==3144== 
+==3144== For lists of detected and suppressed errors, rerun with: -s
+==3144== ERROR SUMMARY: 19 errors from 16 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"Remove.UnlinkNodeLabel" end time: Jan 25 09:24 UTC
+"Remove.UnlinkNodeLabel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/23 Testing: Random.Random
+23/23 Test: Random.Random
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Random.Random"
+Directory: /work/hw-echen606/hw1/hw1_tests/label_tests
+"Random.Random" start time: Jan 25 09:24 UTC
+Output:
+----------------------------------------------------------
+==3145== Memcheck, a memory error detector
+==3145== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3145== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3145== Command: /work/hw-echen606/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Random.Random
+==3145== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Random.Random
+[==========] Running 0 tests from 0 test suites.
+[==========] 0 tests from 0 test suites ran. (5 ms total)
+[  PASSED  ] 0 tests.
+==3145== 
+==3145== HEAP SUMMARY:
+==3145==     in use at exit: 0 bytes in 0 blocks
+==3145==   total heap usage: 371 allocs, 371 frees, 127,238 bytes allocated
+==3145== 
+==3145== All heap blocks were freed -- no leaks are possible
+==3145== 
+==3145== For lists of detected and suppressed errors, rerun with: -s
+==3145== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"Random.Random" end time: Jan 25 09:24 UTC
+"Random.Random" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 25 09:24 UTC
