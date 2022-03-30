@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw3_rh.a  CMakeFiles/hw3_rh.dir/work/hw-echen606/hw3/rh.cpp.o CMakeFiles/hw3_rh.dir/work/hw-echen606/hw3/board.cpp.o CMakeFiles/hw3_rh.dir/work/hw-echen606/hw3/solver.cpp.o CMakeFiles/hw3_rh.dir/work/hw-echen606/hw3/heur.cpp.o CMakeFiles/hw3_rh.dir/work/hw-echen606/hw3/move.cpp.o
+/usr/bin/ranlib libhw3_rh.a

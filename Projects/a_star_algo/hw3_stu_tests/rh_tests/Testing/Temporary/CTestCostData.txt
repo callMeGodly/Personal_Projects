@@ -1,0 +1,21 @@
+Heuristic.DirectHeuristic0 41 0.0133413
+Heuristic.DirectHeuristic1 41 0.0112099
+Heuristic.DirectHeuristic234 41 0.0108831
+Heuristic.IndirectHeuristic0 41 0.01083
+Heuristic.IndirectHeuristic1 39 0.0114074
+Heuristic.IndirectHeuristic234 39 0.0114508
+Heuristic.IndirectHeuristicFalsePositives 38 0.0117648
+Heuristic.IndirectHeuristicTruePositives 36 0.0124603
+Heuristic.IndirectHeuristicAboveBelow 36 0.0123481
+OperatorLT.Nominal1 34 0.0130749
+Move.ConstructorAndScore 32 0.0140823
+BoardTest.PotentialMoves1 23 0.0216332
+BoardTest.PotentialMoves2 23 0.0195872
+BoardTest.NoPotentialMoves 39 0.0113719
+BoardTest.Undo1 26 0.0178471
+Solver.Basic 12 0.0478452
+Solver.Difficult 7 0.881696
+Solver.InBoard10x10 9 1.19288
+Solver.Direct 7 1.98508
+Solver.UnSolvable1 36 0.0564506
+---

@@ -1,0 +1,99 @@
+Question 1 (Git):
+
+Part a): unmodified
+
+Part b): README.md -> modified
+         funproblem.txt -> untracked
+
+Part c):
+	 README.md -> staged
+	 funproblem.txt -> staged
+
+Part d):
+	 README.md -> modified
+	 funproblem.txt -> modified
+
+Part e):
+	 README.md -> staged
+	 funproblem.txt -> unmodified
+
+Part f):
+	 modified
+
+
+Question 2 (Makefile):
+
+1. Every action line in a makefile must start with a:
+
+Answer: A tab
+
+2. Which action(s) will get called? What compiler command(s) with what exact parameters will get executed as a result of the action(s)?
+
+Answer:
+
+	Part 1): rm -f *.o *~ shape1 shape2 *~
+          
+		$(CXX) $(CXXFLAGS) -c  $< -o $@
+		$(CXX) $(CXXFLAGS) -c  $< -o $@
+		$(CXX) $(CXXFLAGS) $^ -o $@ $(LIBS)
+
+	Part 2): rm -f shape.o shape1.o shape2.o *~ shape1 shape2 *~
+
+		g++ -I. -std=c++11 -ggdb -c  shape1.cpp -o shape1.o
+		g++ -I. -std=c++11 -ggdb -c  shape.cpp -o shape.o
+		g++ -I. -std=c++11 -ggdb shape1.o shape.o -o shape1 -lm
+
+3. What is the purpose of a .PHONY rule?
+
+Answer: To avoid our targets no executing when the action might have the same name as 
+        a file in that directory. For instance, if we had a clean target, but a file named
+        clean in that directory, the target won't work. Instead we need to call it Phony
+        so when we make clean, it will execute its action and not go look for a file called clean
+
+4. What are acceptable names for a makefile? Select all that applies.
+
+Answer: makefile and Makefile
+
+
+
+Question 4 (ADT):
+
+
+1. a data type to store the text of the steps of a recipe for how to bake a cake
+
+Answer: A list consisting of strings
+
+Justification: Since order does matter, because one step comes before another, a list can keep
+                     track of the order one’s on. Simply by searching the index, one can find the appropriate
+                     step to do. We will avoid using a set because a recipe can have recurring steps. Alternative
+                     solutions can include a map, with keys as integers representing step number and values
+                     representing the instructions.
+
+2. a data type that stores all the TV station identifications (e.g. KABC, KNBC, etc.) so we can ensure new stations don’t reuse the same identification.
+
+Answer: A set consisting of strings
+
+Justification: Since we don’t want any duplicates, we will need to use a set to ensure new stations don’t
+                     reuse the same identification. We will not be using a list or map because a list can have duplicate
+                     identifications and a map’s value can also repeat.
+
+3. a data type that stores what players (assume names are unique) are on each team (given by the team name) in a league and allows quick checks whether a given player is on a particular team (i.e. given a team name and player name, we can quickly ascertain if that player is on that team).
+	    
+Answer: A map, with keys as strings representing the name of the players and values in strings
+              representing the players’ team name
+
+Justification: Since we know we will need to find using names and not by index, maps are the way to go.
+                     The question also hints that the name will be unique thus we can safely use them as keys.
+                     To check whether such person is on such team, we will index the map using the player’s name
+                     then do a comparison with a desired team name to check if they are in such team.
+
+4. a data type that associates a file extension (e.g. cpp, pdf) with the possible programs that are able to read/open that kind of file
+
+Answer: A map with string keys that represent file extensions and values that contain a string list of all the possible
+        programs that are able to read/open that kind of file.
+
+Justification: Since we are going to pair a few things to another, using a map can help us sort different file
+               extensions with their possible programs. We can also avoid having duplicate file extensions since
+               there should only be one for each extension. We will be using a string list for the map's values because
+               a file extension can have possible multiple programs that it can read/open.
+

@@ -1,0 +1,24 @@
+AVLBST.ConstructionDestruction 44 0.0117582
+AVLInsert.OneNode 44 0.00969145
+AVLInsert.DoubleInsertLeft 44 0.00967676
+AVLInsert.DoubleInsertRight 44 0.00963571
+AVLInsert.InsertZigZigLeft 44 0.0098051
+AVLInsert.InsertZigZigRight 44 0.0097079
+AVLInsert.InsertZigZagLeft 41 0.0103807
+AVLInsert.InsertZigZagRight 39 0.0109564
+AVLInsert.7Elements 42 0.0103138
+AVLClear.Clear 44 0.00954525
+AVLInsert.Duplicates 44 0.00970284
+AVLInsert.Random50x30ele 32 0.0166922
+AVLInsert.Random3x5000ele 28 0.0356372
+AVLRemove.EmptyTree 44 0.00953664
+AVLRemove.NodeMismatch 44 0.00964937
+AVLRemove.SingleRemove 44 0.00953783
+AVLRemove.RightChildRemove 43 0.00991211
+AVLRemove.LeftChildRemove 42 0.0101744
+AVLRemove.TwoChildrenRemove_3Node 25 0.0171168
+AVLRemove.TwoChildrenRemove_4Node 25 0.0171564
+AVLRemove.Random50x30ele 17 0.0451506
+AVLStress.InsertRemove 13 0.0341318
+AVLStress.Remove 22 0.0202684
+---
