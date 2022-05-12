@@ -14,8 +14,6 @@ int main(int argc, char* argv[]) {
 		return -1;
 	}
 
-	/************* You complete *************/
-  
   int base;
   string output;
   string secret_code;
