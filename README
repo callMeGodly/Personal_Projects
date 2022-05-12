@@ -13,6 +13,9 @@ Embedded Systems:
 	- sequence lock
 	- stopwatch
 	- traffic lights
+	- PWM Servo Motor
+	- Thermometer
+	
 
 Projects:
 
@@ -20,6 +23,10 @@ Projects:
 	- AVL and BST tree
 	- Labelled Lists
 	- Search Engine
+	- Hashtable and Graph Bijection
+	- Backtracking for scheduling
+	- Greedy Scheduling
+	- Prim's algorithm without heap
 
 Small Projects:
 
