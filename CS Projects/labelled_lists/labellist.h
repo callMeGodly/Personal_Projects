@@ -49,7 +49,6 @@ private:
          */
         MsgNode(const MsgType& msg);
 
-        // ---- Add any helper functions here -----
 
     };
 
@@ -314,7 +313,6 @@ private:
      */
     size_t findLabelIndex(const LabelType& label) const;
 
-    // ---- Add private helper functions here -----
 
 
 /// Data members
@@ -324,8 +322,6 @@ private:
                                     // of a label in this vector is
                                     // the index/level to be used
                                     // for node next/prev pointers
-
-    // ---- Add additional data members here, as desired ----
     NodeVec tails_; //array of ptrs to previous msg per label
 
 };
