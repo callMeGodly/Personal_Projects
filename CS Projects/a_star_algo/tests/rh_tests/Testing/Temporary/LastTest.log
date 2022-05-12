@@ -1,0 +1,823 @@
+Start testing: Mar 23 20:46 UTC
+----------------------------------------------------------
+1/20 Testing: Heuristic.DirectHeuristic0
+1/20 Test: Heuristic.DirectHeuristic0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.DirectHeuristic0"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.DirectHeuristic0" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2600== Memcheck, a memory error detector
+==2600== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2600== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2600== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.DirectHeuristic0
+==2600== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.DirectHeuristic0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.DirectHeuristic0
+[       OK ] Heuristic.DirectHeuristic0 (19 ms)
+[----------] 1 test from Heuristic (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (28 ms total)
+[  PASSED  ] 1 test.
+==2600== 
+==2600== HEAP SUMMARY:
+==2600==     in use at exit: 0 bytes in 0 blocks
+==2600==   total heap usage: 450 allocs, 450 frees, 131,360 bytes allocated
+==2600== 
+==2600== All heap blocks were freed -- no leaks are possible
+==2600== 
+==2600== For lists of detected and suppressed errors, rerun with: -s
+==2600== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.DirectHeuristic0" end time: Mar 23 20:46 UTC
+"Heuristic.DirectHeuristic0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/20 Testing: Heuristic.DirectHeuristic1
+2/20 Test: Heuristic.DirectHeuristic1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.DirectHeuristic1"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.DirectHeuristic1" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2601== Memcheck, a memory error detector
+==2601== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2601== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2601== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.DirectHeuristic1
+==2601== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.DirectHeuristic1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.DirectHeuristic1
+[       OK ] Heuristic.DirectHeuristic1 (19 ms)
+[----------] 1 test from Heuristic (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==2601== 
+==2601== HEAP SUMMARY:
+==2601==     in use at exit: 0 bytes in 0 blocks
+==2601==   total heap usage: 449 allocs, 449 frees, 131,272 bytes allocated
+==2601== 
+==2601== All heap blocks were freed -- no leaks are possible
+==2601== 
+==2601== For lists of detected and suppressed errors, rerun with: -s
+==2601== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.DirectHeuristic1" end time: Mar 23 20:46 UTC
+"Heuristic.DirectHeuristic1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/20 Testing: Heuristic.DirectHeuristic234
+3/20 Test: Heuristic.DirectHeuristic234
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.DirectHeuristic234"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.DirectHeuristic234" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2602== Memcheck, a memory error detector
+==2602== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2602== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2602== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.DirectHeuristic234
+==2602== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.DirectHeuristic234
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.DirectHeuristic234
+[       OK ] Heuristic.DirectHeuristic234 (20 ms)
+[----------] 1 test from Heuristic (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==2602== 
+==2602== HEAP SUMMARY:
+==2602==     in use at exit: 0 bytes in 0 blocks
+==2602==   total heap usage: 475 allocs, 475 frees, 132,648 bytes allocated
+==2602== 
+==2602== All heap blocks were freed -- no leaks are possible
+==2602== 
+==2602== For lists of detected and suppressed errors, rerun with: -s
+==2602== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.DirectHeuristic234" end time: Mar 23 20:46 UTC
+"Heuristic.DirectHeuristic234" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/20 Testing: Heuristic.IndirectHeuristic0
+4/20 Test: Heuristic.IndirectHeuristic0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.IndirectHeuristic0"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.IndirectHeuristic0" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2603== Memcheck, a memory error detector
+==2603== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2603== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2603== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.IndirectHeuristic0
+==2603== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.IndirectHeuristic0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.IndirectHeuristic0
+[       OK ] Heuristic.IndirectHeuristic0 (17 ms)
+[----------] 1 test from Heuristic (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+==2603== 
+==2603== HEAP SUMMARY:
+==2603==     in use at exit: 0 bytes in 0 blocks
+==2603==   total heap usage: 450 allocs, 450 frees, 131,374 bytes allocated
+==2603== 
+==2603== All heap blocks were freed -- no leaks are possible
+==2603== 
+==2603== For lists of detected and suppressed errors, rerun with: -s
+==2603== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.IndirectHeuristic0" end time: Mar 23 20:46 UTC
+"Heuristic.IndirectHeuristic0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/20 Testing: Heuristic.IndirectHeuristic1
+5/20 Test: Heuristic.IndirectHeuristic1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.IndirectHeuristic1"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.IndirectHeuristic1" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2604== Memcheck, a memory error detector
+==2604== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2604== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2604== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.IndirectHeuristic1
+==2604== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.IndirectHeuristic1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.IndirectHeuristic1
+[       OK ] Heuristic.IndirectHeuristic1 (19 ms)
+[----------] 1 test from Heuristic (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==2604== 
+==2604== HEAP SUMMARY:
+==2604==     in use at exit: 0 bytes in 0 blocks
+==2604==   total heap usage: 450 allocs, 450 frees, 131,326 bytes allocated
+==2604== 
+==2604== All heap blocks were freed -- no leaks are possible
+==2604== 
+==2604== For lists of detected and suppressed errors, rerun with: -s
+==2604== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.IndirectHeuristic1" end time: Mar 23 20:46 UTC
+"Heuristic.IndirectHeuristic1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/20 Testing: Heuristic.IndirectHeuristic234
+6/20 Test: Heuristic.IndirectHeuristic234
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.IndirectHeuristic234"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.IndirectHeuristic234" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2605== Memcheck, a memory error detector
+==2605== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2605== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2605== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.IndirectHeuristic234
+==2605== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.IndirectHeuristic234
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.IndirectHeuristic234
+[       OK ] Heuristic.IndirectHeuristic234 (20 ms)
+[----------] 1 test from Heuristic (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==2605== 
+==2605== HEAP SUMMARY:
+==2605==     in use at exit: 0 bytes in 0 blocks
+==2605==   total heap usage: 484 allocs, 484 frees, 133,022 bytes allocated
+==2605== 
+==2605== All heap blocks were freed -- no leaks are possible
+==2605== 
+==2605== For lists of detected and suppressed errors, rerun with: -s
+==2605== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.IndirectHeuristic234" end time: Mar 23 20:46 UTC
+"Heuristic.IndirectHeuristic234" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/20 Testing: Heuristic.IndirectHeuristicFalsePositives
+7/20 Test: Heuristic.IndirectHeuristicFalsePositives
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.IndirectHeuristicFalsePositives"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.IndirectHeuristicFalsePositives" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2606== Memcheck, a memory error detector
+==2606== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2606== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2606== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.IndirectHeuristicFalsePositives
+==2606== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.IndirectHeuristicFalsePositives
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.IndirectHeuristicFalsePositives
+[       OK ] Heuristic.IndirectHeuristicFalsePositives (20 ms)
+[----------] 1 test from Heuristic (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==2606== 
+==2606== HEAP SUMMARY:
+==2606==     in use at exit: 0 bytes in 0 blocks
+==2606==   total heap usage: 465 allocs, 465 frees, 132,291 bytes allocated
+==2606== 
+==2606== All heap blocks were freed -- no leaks are possible
+==2606== 
+==2606== For lists of detected and suppressed errors, rerun with: -s
+==2606== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.IndirectHeuristicFalsePositives" end time: Mar 23 20:46 UTC
+"Heuristic.IndirectHeuristicFalsePositives" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/20 Testing: Heuristic.IndirectHeuristicTruePositives
+8/20 Test: Heuristic.IndirectHeuristicTruePositives
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.IndirectHeuristicTruePositives"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.IndirectHeuristicTruePositives" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2607== Memcheck, a memory error detector
+==2607== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2607== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2607== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.IndirectHeuristicTruePositives
+==2607== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.IndirectHeuristicTruePositives
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.IndirectHeuristicTruePositives
+[       OK ] Heuristic.IndirectHeuristicTruePositives (23 ms)
+[----------] 1 test from Heuristic (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+==2607== 
+==2607== HEAP SUMMARY:
+==2607==     in use at exit: 0 bytes in 0 blocks
+==2607==   total heap usage: 566 allocs, 566 frees, 137,614 bytes allocated
+==2607== 
+==2607== All heap blocks were freed -- no leaks are possible
+==2607== 
+==2607== For lists of detected and suppressed errors, rerun with: -s
+==2607== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.IndirectHeuristicTruePositives" end time: Mar 23 20:46 UTC
+"Heuristic.IndirectHeuristicTruePositives" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/20 Testing: Heuristic.IndirectHeuristicAboveBelow
+9/20 Test: Heuristic.IndirectHeuristicAboveBelow
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Heuristic.IndirectHeuristicAboveBelow"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Heuristic.IndirectHeuristicAboveBelow" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2608== Memcheck, a memory error detector
+==2608== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2608== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2608== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Heuristic.IndirectHeuristicAboveBelow
+==2608== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Heuristic.IndirectHeuristicAboveBelow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Heuristic
+[ RUN      ] Heuristic.IndirectHeuristicAboveBelow
+[       OK ] Heuristic.IndirectHeuristicAboveBelow (20 ms)
+[----------] 1 test from Heuristic (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+==2608== 
+==2608== HEAP SUMMARY:
+==2608==     in use at exit: 0 bytes in 0 blocks
+==2608==   total heap usage: 499 allocs, 499 frees, 133,929 bytes allocated
+==2608== 
+==2608== All heap blocks were freed -- no leaks are possible
+==2608== 
+==2608== For lists of detected and suppressed errors, rerun with: -s
+==2608== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"Heuristic.IndirectHeuristicAboveBelow" end time: Mar 23 20:46 UTC
+"Heuristic.IndirectHeuristicAboveBelow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/20 Testing: OperatorLT.Nominal1
+10/20 Test: OperatorLT.Nominal1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=OperatorLT.Nominal1"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"OperatorLT.Nominal1" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2609== Memcheck, a memory error detector
+==2609== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2609== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2609== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=OperatorLT.Nominal1
+==2609== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = OperatorLT.Nominal1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OperatorLT
+[ RUN      ] OperatorLT.Nominal1
+[       OK ] OperatorLT.Nominal1 (22 ms)
+[----------] 1 test from OperatorLT (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (31 ms total)
+[  PASSED  ] 1 test.
+==2609== 
+==2609== HEAP SUMMARY:
+==2609==     in use at exit: 0 bytes in 0 blocks
+==2609==   total heap usage: 498 allocs, 498 frees, 138,915 bytes allocated
+==2609== 
+==2609== All heap blocks were freed -- no leaks are possible
+==2609== 
+==2609== For lists of detected and suppressed errors, rerun with: -s
+==2609== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"OperatorLT.Nominal1" end time: Mar 23 20:46 UTC
+"OperatorLT.Nominal1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/20 Testing: Move.ConstructorAndScore
+11/20 Test: Move.ConstructorAndScore
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Move.ConstructorAndScore"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Move.ConstructorAndScore" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2610== Memcheck, a memory error detector
+==2610== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2610== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2610== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Move.ConstructorAndScore
+==2610== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Move.ConstructorAndScore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Move
+[ RUN      ] Move.ConstructorAndScore
+[       OK ] Move.ConstructorAndScore (28 ms)
+[----------] 1 test from Move (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+==2610== 
+==2610== HEAP SUMMARY:
+==2610==     in use at exit: 0 bytes in 0 blocks
+==2610==   total heap usage: 447 allocs, 447 frees, 130,932 bytes allocated
+==2610== 
+==2610== All heap blocks were freed -- no leaks are possible
+==2610== 
+==2610== For lists of detected and suppressed errors, rerun with: -s
+==2610== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"Move.ConstructorAndScore" end time: Mar 23 20:46 UTC
+"Move.ConstructorAndScore" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/20 Testing: BoardTest.PotentialMoves1
+12/20 Test: BoardTest.PotentialMoves1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=BoardTest.PotentialMoves1"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"BoardTest.PotentialMoves1" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2611== Memcheck, a memory error detector
+==2611== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2611== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2611== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=BoardTest.PotentialMoves1
+==2611== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BoardTest.PotentialMoves1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.PotentialMoves1
+[       OK ] BoardTest.PotentialMoves1 (24 ms)
+[----------] 1 test from BoardTest (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+==2611== 
+==2611== HEAP SUMMARY:
+==2611==     in use at exit: 0 bytes in 0 blocks
+==2611==   total heap usage: 433 allocs, 433 frees, 130,957 bytes allocated
+==2611== 
+==2611== All heap blocks were freed -- no leaks are possible
+==2611== 
+==2611== For lists of detected and suppressed errors, rerun with: -s
+==2611== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.PotentialMoves1" end time: Mar 23 20:46 UTC
+"BoardTest.PotentialMoves1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/20 Testing: BoardTest.PotentialMoves2
+13/20 Test: BoardTest.PotentialMoves2
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=BoardTest.PotentialMoves2"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"BoardTest.PotentialMoves2" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2612== Memcheck, a memory error detector
+==2612== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2612== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2612== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=BoardTest.PotentialMoves2
+==2612== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BoardTest.PotentialMoves2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.PotentialMoves2
+[       OK ] BoardTest.PotentialMoves2 (25 ms)
+[----------] 1 test from BoardTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+==2612== 
+==2612== HEAP SUMMARY:
+==2612==     in use at exit: 0 bytes in 0 blocks
+==2612==   total heap usage: 439 allocs, 439 frees, 131,663 bytes allocated
+==2612== 
+==2612== All heap blocks were freed -- no leaks are possible
+==2612== 
+==2612== For lists of detected and suppressed errors, rerun with: -s
+==2612== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.PotentialMoves2" end time: Mar 23 20:46 UTC
+"BoardTest.PotentialMoves2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/20 Testing: BoardTest.NoPotentialMoves
+14/20 Test: BoardTest.NoPotentialMoves
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=BoardTest.NoPotentialMoves"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"BoardTest.NoPotentialMoves" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2613== Memcheck, a memory error detector
+==2613== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2613== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2613== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=BoardTest.NoPotentialMoves
+==2613== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BoardTest.NoPotentialMoves
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.NoPotentialMoves
+[       OK ] BoardTest.NoPotentialMoves (19 ms)
+[----------] 1 test from BoardTest (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==2613== 
+==2613== HEAP SUMMARY:
+==2613==     in use at exit: 0 bytes in 0 blocks
+==2613==   total heap usage: 430 allocs, 430 frees, 130,679 bytes allocated
+==2613== 
+==2613== All heap blocks were freed -- no leaks are possible
+==2613== 
+==2613== For lists of detected and suppressed errors, rerun with: -s
+==2613== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.NoPotentialMoves" end time: Mar 23 20:46 UTC
+"BoardTest.NoPotentialMoves" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/20 Testing: BoardTest.Undo1
+15/20 Test: BoardTest.Undo1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=BoardTest.Undo1"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"BoardTest.Undo1" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2614== Memcheck, a memory error detector
+==2614== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2614== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2614== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=BoardTest.Undo1
+==2614== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BoardTest.Undo1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BoardTest
+[ RUN      ] BoardTest.Undo1
+[       OK ] BoardTest.Undo1 (41 ms)
+[----------] 1 test from BoardTest (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (49 ms total)
+[  PASSED  ] 1 test.
+==2614== 
+==2614== HEAP SUMMARY:
+==2614==     in use at exit: 0 bytes in 0 blocks
+==2614==   total heap usage: 494 allocs, 494 frees, 141,193 bytes allocated
+==2614== 
+==2614== All heap blocks were freed -- no leaks are possible
+==2614== 
+==2614== For lists of detected and suppressed errors, rerun with: -s
+==2614== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"BoardTest.Undo1" end time: Mar 23 20:46 UTC
+"BoardTest.Undo1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/20 Testing: Solver.Basic
+16/20 Test: Solver.Basic
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Solver.Basic"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Solver.Basic" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2615== Memcheck, a memory error detector
+==2615== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2615== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2615== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Solver.Basic
+==2615== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Solver.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Solver
+[ RUN      ] Solver.Basic
+[       OK ] Solver.Basic (147 ms)
+[----------] 1 test from Solver (149 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (156 ms total)
+[  PASSED  ] 1 test.
+==2615== 
+==2615== HEAP SUMMARY:
+==2615==     in use at exit: 0 bytes in 0 blocks
+==2615==   total heap usage: 4,436 allocs, 4,436 frees, 901,002 bytes allocated
+==2615== 
+==2615== All heap blocks were freed -- no leaks are possible
+==2615== 
+==2615== For lists of detected and suppressed errors, rerun with: -s
+==2615== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.57 sec
+----------------------------------------------------------
+Test Passed.
+"Solver.Basic" end time: Mar 23 20:46 UTC
+"Solver.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/20 Testing: Solver.Difficult
+17/20 Test: Solver.Difficult
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Solver.Difficult"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Solver.Difficult" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2616== Memcheck, a memory error detector
+==2616== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2616== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2616== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Solver.Difficult
+==2616== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Solver.Difficult
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Solver
+[ RUN      ] Solver.Difficult
+[       OK ] Solver.Difficult (5744 ms)
+[----------] 1 test from Solver (5747 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5753 ms total)
+[  PASSED  ] 1 test.
+==2616== 
+==2616== HEAP SUMMARY:
+==2616==     in use at exit: 0 bytes in 0 blocks
+==2616==   total heap usage: 215,655 allocs, 215,655 frees, 45,791,350 bytes allocated
+==2616== 
+==2616== All heap blocks were freed -- no leaks are possible
+==2616== 
+==2616== For lists of detected and suppressed errors, rerun with: -s
+==2616== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   6.17 sec
+----------------------------------------------------------
+Test Passed.
+"Solver.Difficult" end time: Mar 23 20:46 UTC
+"Solver.Difficult" time elapsed: 00:00:06
+----------------------------------------------------------
+
+18/20 Testing: Solver.InBoard10x10
+18/20 Test: Solver.InBoard10x10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Solver.InBoard10x10"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Solver.InBoard10x10" start time: Mar 23 20:46 UTC
+Output:
+----------------------------------------------------------
+==2617== Memcheck, a memory error detector
+==2617== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2617== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2617== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Solver.InBoard10x10
+==2617== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Solver.InBoard10x10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Solver
+[ RUN      ] Solver.InBoard10x10
+[       OK ] Solver.InBoard10x10 (10306 ms)
+[----------] 1 test from Solver (10309 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10316 ms total)
+[  PASSED  ] 1 test.
+==2617== 
+==2617== HEAP SUMMARY:
+==2617==     in use at exit: 0 bytes in 0 blocks
+==2617==   total heap usage: 205,196 allocs, 205,196 frees, 45,871,106 bytes allocated
+==2617== 
+==2617== All heap blocks were freed -- no leaks are possible
+==2617== 
+==2617== For lists of detected and suppressed errors, rerun with: -s
+==2617== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =  10.74 sec
+----------------------------------------------------------
+Test Passed.
+"Solver.InBoard10x10" end time: Mar 23 20:47 UTC
+"Solver.InBoard10x10" time elapsed: 00:00:10
+----------------------------------------------------------
+
+19/20 Testing: Solver.Direct
+19/20 Test: Solver.Direct
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Solver.Direct"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Solver.Direct" start time: Mar 23 20:47 UTC
+Output:
+----------------------------------------------------------
+==2618== Memcheck, a memory error detector
+==2618== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2618== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2618== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Solver.Direct
+==2618== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Solver.Direct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Solver
+[ RUN      ] Solver.Direct
+[       OK ] Solver.Direct (13467 ms)
+[----------] 1 test from Solver (13469 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (13476 ms total)
+[  PASSED  ] 1 test.
+==2618== 
+==2618== HEAP SUMMARY:
+==2618==     in use at exit: 0 bytes in 0 blocks
+==2618==   total heap usage: 513,878 allocs, 513,878 frees, 107,799,562 bytes allocated
+==2618== 
+==2618== All heap blocks were freed -- no leaks are possible
+==2618== 
+==2618== For lists of detected and suppressed errors, rerun with: -s
+==2618== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =  13.90 sec
+----------------------------------------------------------
+Test Passed.
+"Solver.Direct" end time: Mar 23 20:47 UTC
+"Solver.Direct" time elapsed: 00:00:13
+----------------------------------------------------------
+
+20/20 Testing: Solver.UnSolvable1
+20/20 Test: Solver.UnSolvable1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests" "--gtest_filter=Solver.UnSolvable1"
+Directory: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests
+"Solver.UnSolvable1" start time: Mar 23 20:47 UTC
+Output:
+----------------------------------------------------------
+==2619== Memcheck, a memory error detector
+==2619== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2619== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2619== Command: /work/hw-echen606/hw3/hw3_stu_tests/rh_tests/rh_tests --gtest_filter=Solver.UnSolvable1
+==2619== 
+Running main() from /build/googletest-K1TalW/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Solver.UnSolvable1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Solver
+[ RUN      ] Solver.UnSolvable1
+[       OK ] Solver.UnSolvable1 (1597 ms)
+[----------] 1 test from Solver (1599 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1607 ms total)
+[  PASSED  ] 1 test.
+==2619== 
+==2619== HEAP SUMMARY:
+==2619==     in use at exit: 0 bytes in 0 blocks
+==2619==   total heap usage: 59,726 allocs, 59,726 frees, 12,285,434 bytes allocated
+==2619== 
+==2619== All heap blocks were freed -- no leaks are possible
+==2619== 
+==2619== For lists of detected and suppressed errors, rerun with: -s
+==2619== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.03 sec
+----------------------------------------------------------
+Test Passed.
+"Solver.UnSolvable1" end time: Mar 23 20:47 UTC
+"Solver.UnSolvable1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Mar 23 20:47 UTC

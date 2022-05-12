@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/work/hw-echen606/hw4/equal-paths.cpp
+equal-paths.h
+/work/hw-echen606/hw4/equal-paths.h
+
+/work/hw-echen606/hw4/equal-paths.h
+stdlib.h
+-
+

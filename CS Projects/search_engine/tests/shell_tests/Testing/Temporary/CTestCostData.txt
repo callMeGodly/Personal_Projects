@@ -1,0 +1,4 @@
+SearchShell.Query1 2 0.021087
+SearchShell.Query2 2 0.0153669
+SearchShell.Query3 11 0.00274765
+---
