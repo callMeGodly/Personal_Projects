@@ -2,7 +2,6 @@
 using namespace std;
 
 
-// You may add any prototypes of helper functions here
 bool equalPathsHelper(Node* root, int &height);
 
 bool equalPaths(Node * root)

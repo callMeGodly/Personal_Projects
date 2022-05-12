@@ -1,6 +1,3 @@
-//-----------------------------------------
-// You may NOT change anything in this file
-//-----------------------------------------
 #ifndef EQUAL_PATHS_H
 #define EQUAL_PATHS_H
 #include <stdlib.h>

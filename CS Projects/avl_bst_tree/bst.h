@@ -236,14 +236,11 @@ public:
     Value const & operator[](const Key& key) const;
 
 protected:
-    // Mandatory helper functions
-    Node<Key, Value>* internalFind(const Key& k) const; // TODO
-    Node<Key, Value> *getSmallestNode() const;  // TODO
-    static Node<Key, Value>* predecessor(Node<Key, Value>* current); // TODO
-    // Note:  static means these functions don't have a "this" pointer
-    //        and instead just use the input argument.
 
-    // Provided helper functions
+    Node<Key, Value>* internalFind(const Key& k) const;
+    Node<Key, Value> *getSmallestNode() const;
+    static Node<Key, Value>* predecessor(Node<Key, Value>* current);
+
     virtual void printRoot (Node<Key, Value> *r) const;
     virtual void nodeSwap( Node<Key,Value>* n1, Node<Key,Value>* n2);
 
@@ -256,7 +253,6 @@ protected:
 
 protected:
     Node<Key, Value>* root_;
-    // You should not need other data members
 };
 
 /*
@@ -360,14 +356,12 @@ Begin implementations for the BinarySearchTree class.
 template<class Key, class Value>
 BinarySearchTree<Key, Value>::BinarySearchTree() 
 {
-    // TODO
     root_ = nullptr;
 }
 
 template<typename Key, typename Value>
 BinarySearchTree<Key, Value>::~BinarySearchTree()
 {
-    // TODO
     clear(); // uses the clear funtion to deallocate all nodes;
 }
 
@@ -865,18 +859,6 @@ void BinarySearchTree<Key, Value>::nodeSwap( Node<Key,Value>* n1, Node<Key,Value
 
 }
 
-/**
- * Lastly, we are providing you with a print function,
-   BinarySearchTree::printRoot().
-   Just call it with a node to start printing at, e.g:
-   this->printRoot(this->root_) // or any other node pointer
-
-   It will print up to 5 levels of the tree rooted at the passed node,
-   in ASCII graphics format.
-   We hope it will make debugging easier!
-  */
-
-// include print function (in its own file because it's fairly long)
 #include "print_bst.h"
 
 /*
