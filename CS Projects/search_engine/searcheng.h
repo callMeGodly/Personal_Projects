@@ -37,15 +37,13 @@ public:
 class SearchEng {
 public:
     /**
-    * Default constructor
-    * [TO BE WRITTEN]
+    * Default constructo
     *
     */
     SearchEng();
 
     /**
      * Destructor
-     * [TO BE WRITTEN]
      */
     ~SearchEng();
 
@@ -79,7 +77,6 @@ public:
 
     /**
      * Reads (and parses) a single file specified the given filename
-     * [TO BE WRITTEN]
      *
      * @param[in] filename
      *   Name of the file to read/parse
@@ -93,7 +90,6 @@ public:
 
     /**
      * Retrieves the WebPage object for a given page/file
-     * [TO BE WRITTEN]
      *
      * @param[in] page_name
      *   Name of page/file to retrieve
@@ -106,7 +102,6 @@ public:
 
     /**
      * Displays the contents of the page/file
-     * [TO BE WRITTEN]
      *
      * @param[inout] ostr
      *   Output stream to display the contents
@@ -123,7 +118,6 @@ public:
     /**
      * Uses the given search terms and combiner to find the set of webpages
      *  that match the query
-     * [TO BE WRITTEN]
      *
      * @param[in] terms
      *   words/terms to search for

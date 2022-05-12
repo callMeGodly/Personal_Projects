@@ -5,8 +5,6 @@
 #include "searcheng.h"
 #include "handler.h"
 
-/****** THIS CLASS IS COMPLETED AND NEED NOT BE MODIFIED **********/
-
 class SearchUI
 {
 public:

@@ -10,8 +10,6 @@ class WebPage;
 typedef std::set<WebPage*> WebPageSet;
 typedef std::set<std::string> StringSet;
 
-//***** THIS CLASS IS COMPLETED AND NEED NOT BE MODIFIED **********
-
 class WebPage
 {
 public:

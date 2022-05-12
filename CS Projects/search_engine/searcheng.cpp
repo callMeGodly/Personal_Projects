@@ -21,13 +21,11 @@ std::string extract_extension(const std::string& filename)
 }
 
 
-// To be updated as needed 
 SearchEng::SearchEng()
 {
     
 }
 
-// To be completed
 SearchEng::~SearchEng()
 {
     
@@ -45,7 +43,6 @@ SearchEng::~SearchEng()
 
 }
 
-// Complete
 void SearchEng::register_parser(const std::string& extension, PageParser* parser)
 {
     if (parsers_.find(extension) != parsers_.end())
@@ -55,7 +52,6 @@ void SearchEng::register_parser(const std::string& extension, PageParser* parser
     parsers_.insert(make_pair(extension, parser));
 }
 
-// Complete
 void SearchEng::read_pages_from_index(const std::string& index_file)
 {
     ifstream ifile(index_file.c_str());
@@ -74,7 +70,6 @@ void SearchEng::read_pages_from_index(const std::string& index_file)
     ifile.close();
 }
 
-// To be completed
 void SearchEng::read_page(const string& filename)
 {
     
@@ -159,7 +154,6 @@ void SearchEng::read_page(const string& filename)
 
 }
 
-// To be completed
 WebPage* SearchEng::retrieve_page(const std::string& page_name) const
 {
     
@@ -171,7 +165,6 @@ WebPage* SearchEng::retrieve_page(const std::string& page_name) const
     return webpages_.find(page_name)->second;
 }
 
-// To be completed
 void SearchEng::display_page(std::ostream& ostr, const std::string& page_name) const
 {
     
@@ -190,7 +183,6 @@ void SearchEng::display_page(std::ostream& ostr, const std::string& page_name) c
     ostr << pp->display_text(ifile);
 }
 
-// To be completed
 WebPageSet SearchEng::search(const std::vector<std::string>& terms, WebPageSetCombiner* combiner) const
 {
     
@@ -221,6 +213,4 @@ WebPageSet SearchEng::search(const std::vector<std::string>& terms, WebPageSetCo
     return re;
 
 }
-
-// Add private helper function implementations here
 

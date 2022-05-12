@@ -19,7 +19,6 @@ int main(int argc, char* argv[])
     // Declare the search engine
     SearchEng seng;
 
-    // ---------------------- [TO BE COMPLETED] -------------------------------
     // Create and register appropriate parsers for .md and .txt files
     PageParser* md = new MDParser;
     PageParser* txt = new TXTParser;
@@ -65,8 +64,6 @@ int main(int argc, char* argv[])
         ofstream out_file(argv[3]);
         ui.run(in_file, out_file);
     }
-    // You may add cleanup code here though you likely do not
-    // need to.
 
     return 0;
 }
