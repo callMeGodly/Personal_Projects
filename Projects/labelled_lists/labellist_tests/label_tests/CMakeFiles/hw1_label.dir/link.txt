@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhw1_label.a  CMakeFiles/hw1_label.dir/work/hw-echen606/hw1/labellist.cpp.o
-/usr/bin/ranlib libhw1_label.a
