@@ -4,6 +4,21 @@ Eric's Projects Uploaded onto Github
 
 Catalogue:
 
+Algorithms:
+
+	- a* parking
+	- back track scheduling
+	- BFS Maze Solver
+	- balanced tree checker
+	- equal paths checker BST
+	- fast Fourier transform
+	- graph bijection
+	- greedy scheduling
+	- knapsack
+	- prim's in O(nm)
+	- sudoku solver
+	- world backtrack helper
+
 Embedded Systems:
 
 	- game of tag
@@ -18,19 +33,15 @@ Embedded Systems:
 	
 
 Projects:
-
-	- A* Algorithm
 	- AVL and BST tree
-	- Labelled Lists
+	- Labelled Linked Lists
 	- Search Engine
-	- Hashtable and Graph Bijection
-	- Backtracking for scheduling
-	- Greedy Scheduling
-	- Prim's algorithm without heap
+	- Hashtable
+	- priority queue/ heap
+	- BIGINT
 
 Small Projects:
 
-	- BFS Maze Solver
 	- black jack
 	- doubly linked lists
 	- hailstone and hailstats
@@ -39,12 +50,9 @@ Small Projects:
 	- image processing with kernel
 	- scramble
 	- moving turtle graphing
-	- balanced tree checker
 	- insert remove find string hash table
 	- heap insertion
 	- inheritance example
-	- sudoku solver
 	- templated linked list
-	- equal paths checker BST
 	- linked list recursion
 
