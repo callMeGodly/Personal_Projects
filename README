@@ -4,20 +4,26 @@ Eric's Projects Uploaded onto Github
 
 Catalogue:
 
-Algorithms:
+
+Highlight Algorithms (Mind died like 1000 times. But at last these are in my toolbox):
 
 	- a* parking
+	- all pairs shortest path
+	- BFS maze solver
+	- fast Fourier transform
+	- knapsack
+
+
+Algorithms:
+
 	- back track scheduling
-	- BFS Maze Solver
 	- balanced tree checker
 	- equal paths checker BST
-	- fast Fourier transform
 	- graph bijection
 	- greedy scheduling
-	- knapsack
 	- prim's in O(nm)
 	- sudoku solver
-	- world backtrack helper
+	- wordle backtrack helper
 
 Embedded Systems:
 
@@ -29,16 +35,17 @@ Embedded Systems:
 	- stopwatch
 	- traffic lights
 	- PWM Servo Motor
-	- Thermometer
 	
 
-Projects:
+Projects (Things that I love and spent most time on):
+
 	- AVL and BST tree
 	- Labelled Linked Lists
 	- Search Engine
 	- Hashtable
 	- priority queue/ heap
 	- BIGINT
+	- Thermometer
 
 Small Projects:
 
